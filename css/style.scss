@@ -215,3 +215,47 @@ color: $white;
     left: 127px;
     top: 122px;
 }
+
+
+
+/* item2 */
+
+.item2{
+    position:$position_elem;
+    width: 1276px;
+    height: 1104px;
+    left: 0px;
+    top: 946px;
+    filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.25));
+
+
+.img2{
+   @include item_image;
+    left: 648px;
+    top: 0px;
+    z-index:2;
+    background-image:url(../img/Screen_Shot_2.png);
+}
+}
+
+.rectangle2{
+    position:$position_elem;
+    width: $width_rectangle;
+    height: $height_rectanlge;
+    left: 0px;
+    top: 100px;
+    background: $purpur;
+    box-shadow: 4px 4px 20px rgba(226, 226, 226, 0.59);
+
+.caption2{
+   @include rectangle_caption;
+    left: 350px;
+    top: 68px;
+}
+}
+
+.info2{
+@include rectangle_text;
+    left: 54px;
+    top: 122px;
+}
