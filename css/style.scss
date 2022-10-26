@@ -40,6 +40,18 @@ $purpur:#6279FF;
     color: $white;
 }
 
+@mixin webdesing__agentur{
+    position:$position_elem;
+    width: 277px;
+    height: 38px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 170%;
+    letter-spacing: 0.1em;
+    color: #504A4A;	
+}
 
 .main{
     width: $width_elem;
@@ -216,6 +228,13 @@ color: $white;
 }
 
 
+.webdesing_agentur1{
+    @include webdesing__agentur;
+    left: 884px;
+    top: 2292px;
+} 
+
+
 
 /* item2 */
 
@@ -259,6 +278,11 @@ color: $white;
     top: 122px;
 }
 
+.webdesing_agentur2{
+    @include webdesing__agentur;
+    left: 155px;
+    top: 1066px;
+}   
 
 /* item3 */
 .item3{
@@ -303,6 +327,13 @@ color: $white;
 }
 
 
+
+.webdesing_agentur3{
+    @include webdesing__agentur;
+    left: 135px;
+    top: 0px;
+}   
+
 /* item4 */
 .item4{
     position:$position_elem;
@@ -340,3 +371,10 @@ color: $white;
 	right:127px;
     bottom: 76px;
 }
+
+
+.webdesing_agentur4{
+    @include webdesing__agentur;
+    left: 877px;
+    top: 0px;
+}   
