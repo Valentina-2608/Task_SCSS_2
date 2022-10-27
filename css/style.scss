@@ -57,7 +57,6 @@ $purpur:#6279FF;
     width: $width_elem;
     height: 4094px;
     margin:0 auto;
-    background-color: yellow;
 }
 
 
@@ -387,7 +386,7 @@ footer{
     width: 1921px;
     height: 819px;
     left: -1px;
-    top: 3275px;
+    top: 3300px;
     background-color: green;
 }
 
@@ -397,7 +396,7 @@ footer{
     width: 1060px;
     height: 96px;
     left: 430px;
-    top: 0px;
+    top: -50px;
     z-index:5;
     background: #FFFFFF;
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25)
@@ -424,4 +423,99 @@ footer{
     letter-spacing: 0.1em;
     text-transform: uppercase;
     color: #0063B2;
+}
+
+
+
+.rectangle5{
+    position:$position_elem;
+    width: 970px;
+    height: 715px;
+    left:0px;
+    top: 0px;
+    background: #0063B2;
+    opacity: 0.88;
+    z-index:4;
+}
+    
+   
+.vector1{
+    position:$position_elem;
+    top:219px;
+    left:300px;
+    }
+    
+.vector1_1{
+    position:$position_elem;
+     top:229px;
+    left:311px;
+}
+    
+ .adress{
+    position:$position_elem;
+    width: 275px;
+    height: 60px;
+    left: 392px;
+    top: 218px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 0.1em;
+    color: $white;
+}
+    
+.vector2{
+    position:$position_elem;
+    top:334px;
+    left:296px;
+}
+    
+.email{
+    position:$position_elem;
+    width: 234px;
+    height: 38px;
+    left: 393px;
+    top: 335px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 150%;
+    letter-spacing: 0.1em;
+    text-transform: lowercase;
+    color: $white;
+ }
+    
+    
+.vector3{
+    position:$position_elem;
+    top:435px;
+    left:298px;
+}
+    
+.phone{
+    position:$position_elem;
+    width: 242px;
+    height: 30px;
+    left: 393px;
+    top: 450px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: $white;
+}
+    
+
+.fon_img{
+    position:$position_elem;
+    width: 960px;
+    height: 713px;
+    left: -2px;
+    top: 0px;
 }
