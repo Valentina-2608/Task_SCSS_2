@@ -666,6 +666,17 @@ form{
     border:none;}
 
 
-    .submit:hover{
+ .submit:hover{
         cursor:pointer;
-    }
+ }
+
+
+.rectangle7{
+     position:$position_elem;
+    width: $width_elem;
+    height: 110px;
+    left: -1px;
+    top: 710px;
+    background: #14202D;
+    z-index: 10;
+}
