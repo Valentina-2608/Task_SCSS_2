@@ -402,7 +402,6 @@ footer{
     height: 819px;
     left: -1px;
     top: 3300px;
-    background-color: green;
 }
 
 
@@ -538,7 +537,7 @@ footer{
 
 .rectangle6{
     position:$position_elem;
-    width: 951px;
+    width: 948px;
     height: 712px;
     left: 970px;
     top: 0px;
@@ -679,4 +678,20 @@ form{
     top: 710px;
     background: #14202D;
     z-index: 10;
+}
+
+
+.info7{
+    position:$position_elem;
+    width: 408px;
+    height: 17px;
+    left: 245px;
+    top: 22px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 17px;
+    letter-spacing: 0.1em;
+    color: $white;
 }
